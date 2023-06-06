@@ -21,11 +21,11 @@ export default {
         getCards() {
             axios.get(store.apiURL)
                 .then(res => {
-                    store.cardList = res.data;
+                    store.cardList = res.data.data;
                     console.log(store.cardList);
                 })
                 .catch(err => {
-                    console.log(err);
+                    console.log(err.message);
                 })
         }
     },

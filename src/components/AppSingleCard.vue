@@ -8,12 +8,11 @@ export default {
 </script>
 
 <template>
-    <!-- <div class="card">
-            <img :src="details.card_images.image_url" :alt="details.name">
-            <h3>{{ details.name }}</h3>
-            <span>{{ details.archetype }}</span>
-        </div> -->
-    <h2>dcvb</h2>
+    <div class="card">
+        <img :src="details.card_images[0].image_url" :alt="details.name">
+        <h3>{{ details.name }}</h3>
+        <span>{{ details.archetype }}</span>
+    </div>
 </template>
 
 <style lang="scss">
