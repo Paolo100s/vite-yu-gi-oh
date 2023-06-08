@@ -6,14 +6,26 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 main {
     background-color: $primary;
 }
 
-.card {
-    width: 100px;
+.deck_container {
+    width: 90%;
+    background-color: $white;
+    margin: auto;
+    padding: 20px 20px 0;
+}
 
-    img {
-        width: 100%;
+.found {
+    background-color: $dark;
+
+    h2 {
+        color: $white;
     }
 }
